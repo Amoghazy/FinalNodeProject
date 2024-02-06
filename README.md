@@ -111,6 +111,6 @@ For any questions, feedback, or collaboration opportunities, please reach out to
 
 - Email: [ahmedmoghazy933gmail.com](mailto:ahmedmoghazy933gmail.com)
 
-- LinkedIn: [[Your LinkedIn profile URL](https://www.linkedin.com/in/ahmed-moghazy-1115191aa/)]
+- LinkedIn: [[ahmed-moghazy](https://www.linkedin.com/in/ahmed-moghazy-1115191aa/)]
 
 Feel free to customize and expand this README file to provide more details about your E-commerce App. Good luck with your project!
