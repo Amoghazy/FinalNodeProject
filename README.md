@@ -68,13 +68,13 @@ To install and set up the E-commerce App, follow these steps:
 1. Clone the repository: `git clone https://github.com/Amoghazy/FinalNodeProject.git`
 2. Navigate to the project directory: `cd FinalNodeProject`
 3. Install the dependencies: `npm install`
-4. make env file contain database credentials, paypal credentials, and secret key for JWT
-5. this is the variable name in .env file [MONGO_URL,
+4. Make env file contain database credentials, paypal credentials, and secret key for JWT
+5. This is the variable name in .env file [MONGO_URL,
    JWT_SECRET_KEY,
    PAYPAL_CLIENT_KEY,
    PAYPAL_SECRET_KEY,
    PAYPAL_MODE,]
-6. after changing .env file, Start the server: `node app.js`
+6. After changing .env file, Start the server: `node app.js`
 
 ## Usage
 
@@ -112,4 +112,3 @@ For any questions, feedback, or collaboration opportunities, please reach out to
 - Email: [ahmedmoghazy933gmail.com](mailto:ahmedmoghazy933gmail.com)
 
 - LinkedIn: [[ahmed-moghazy](https://www.linkedin.com/in/ahmed-moghazy-1115191aa/)]
-
