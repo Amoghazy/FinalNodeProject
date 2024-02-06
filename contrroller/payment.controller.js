@@ -19,7 +19,7 @@ const createPayment = wrappedError(async (req, res, next) => {
       createError.createError(400, "failed", "the cart is already accepted")
     );
   }
-  
+
   for (const product of cart.products) {
     let founded = await Product.findById(product);
     if (!founded) {
@@ -83,7 +83,7 @@ const successPayment = wrappedError(async (req, res, next) => {
     excute_payment,
     async function (error, payment) {
       if (error) {
-        return next(createError.createError(400, "failed", error));
+        return next(createError.createError(400, "FAILED FOR PAYMENT", error));
       } else {
         const cartId = payment.transactions[0].custom;
         const email = payment.payer.payer_info.email;
