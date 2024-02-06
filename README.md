@@ -105,6 +105,10 @@ We welcome contributions to the E-commerce App project. To contribute, please fo
 
 The E-commerce App is released under the [MIT License](LICENSE).
 
+## Deployment
+
+I deployed this project on [onrender site](https://onrender.com) and this is the link [https://e-commerce-app-dkd7.herokuapp.com ]
+
 ## Contact
 
 For any questions, feedback, or collaboration opportunities, please reach out to us via email or our social media profiles:
