@@ -92,6 +92,10 @@ To use the E-commerce App, follow these steps:
 
 The API documentation for the E-commerce App is available in the [Postman format](https://documenter.getpostman.com/view/32466610/2s9YywfKaa). Please refer to the provided Postman documentation for detailed information about the available endpoints, request/response formats, and authentication requirements.
 
+- **Note:**
+  - This documentation for deployed version is available at [https://e-commerce-app-dkd7.onrender.com](https://e-commerce-app-dkd7.onrender.com)
+  - if you are using local version please switch to "http://localhost:3000" instead of "https://e-commerce-app-dkd7.onrender.com"
+
 ## Contributing
 
 We welcome contributions to the E-commerce App project. To contribute, please follow these guidelines:
