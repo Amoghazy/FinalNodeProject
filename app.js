@@ -25,6 +25,14 @@ app.use(cors());
 app.use("/uploads", express.static("uploads"));
 app.use("/uploads/categories", express.static("uploads/categories"));
 app.use(express.json());
+app.use("/", (req, res, next) => {
+  res.json({
+    status: "success",
+    message: "server is running",
+    version: "1.0.0",
+    author: "ahmed",
+  });
+});
 app.use("/api/user", routUsers);
 app.use("/api/product", routProducts);
 app.use("/api/category", routCategory);

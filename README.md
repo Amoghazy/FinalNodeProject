@@ -107,7 +107,7 @@ The E-commerce App is released under the [MIT License](LICENSE).
 
 ## Deployment
 
-I deployed this project on [onrender site](https://onrender.com) and this is the link [https://e-commerce-app-dkd7.herokuapp.com ]
+I deployed this project on [onrender site](https://onrender.com) and this is the link [https://e-commerce-app-dkd7.onrender.com ]
 
 ## Contact
 
