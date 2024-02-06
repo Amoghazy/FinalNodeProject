@@ -113,4 +113,3 @@ For any questions, feedback, or collaboration opportunities, please reach out to
 
 - LinkedIn: [[ahmed-moghazy](https://www.linkedin.com/in/ahmed-moghazy-1115191aa/)]
 
-Feel free to customize and expand this README file to provide more details about your E-commerce App. Good luck with your project!
