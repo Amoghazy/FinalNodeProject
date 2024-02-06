@@ -115,7 +115,6 @@ const deleteProduct = wrappedError(async (req, res, next) => {
 });
 
 const allProducts = wrappedError(async (req, res, next) => {
-  console.log(req.query);
   let { page } = req.query;
   let limit = 6;
   let skip = (page - 1) * limit;

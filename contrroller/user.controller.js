@@ -60,7 +60,7 @@ const signUp = wrappedError(async (req, res, next) => {
   });
 
   user.save();
-  let token = jwt.sign({ id: user._id }, process.env.jwt_SECRET_KEY);
+  let token = jwt.sign({ id: user._id }, process.env.JWT_SECRET_KEY);
 
   sendVerificationEmail(
     user.email,
@@ -72,7 +72,7 @@ const signUp = wrappedError(async (req, res, next) => {
 });
 const verifySignup = wrappedError(async (req, res, next) => {
   const token = req.params.token;
-  const decoded = jwt.verify(token, process.env.jwt_SECRET_KEY);
+  const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
   const user = await User.findById(decoded.id);
   if (user.isVerified) {
     let error = createError.createError(400, "FAILED", "user already verified");
@@ -111,8 +111,8 @@ const login = wrappedError(async (req, res, next) => {
     next(error);
   }
   const token = jwt.sign(
-    { id: existUser._id, email: existUser.email , role: existUser.role},
-    process.env.jwt_SECRET_KEY,
+    { id: existUser._id, email: existUser.email, role: existUser.role },
+    process.env.JWT_SECRET_KEY,
     {
       expiresIn: "1d",
     }
