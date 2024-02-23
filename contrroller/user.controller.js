@@ -64,7 +64,7 @@ const signUp = wrappedError(async (req, res, next) => {
 
   sendVerificationEmail(
     user.email,
-    `http://localhost:3000/api/user/verify/${token}`
+    `https://e-commerce-app-dkd7.onrender.com/api/user/verify/${token}`
   );
   res
     .status(201)
