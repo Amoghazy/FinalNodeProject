@@ -127,7 +127,7 @@ const updateDataUser = wrappedError(async (req, res, next) => {
       createError.createError(
         401,
         "Unauthorized",
-        "Not allowed to make this changes"
+        "Not allowed to make this changeees"
       )
     );
   let userToUpdate = await User.findById(req.params.id);
