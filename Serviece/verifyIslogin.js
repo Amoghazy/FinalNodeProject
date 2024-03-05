@@ -18,7 +18,7 @@ const verifyIslogin = wrappedError(async (req, res, next) => {
   const token = authHeader.split(" ")[1];
   try {
     let payload = jwt.verify(token, process.env.JWT_SECRET_KEY);
-   
+
     req.crrUser = payload;
 
     next();

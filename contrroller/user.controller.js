@@ -122,7 +122,7 @@ const login = wrappedError(async (req, res, next) => {
 const updateDataUser = wrappedError(async (req, res, next) => {
   let { email, id } = req.crrUser;
   let user = await User.findById(id);
-  if (user.role != "admin")
+  if (user.role != "admin" && user.email != email)
     return next(
       createError.createError(
         401,
